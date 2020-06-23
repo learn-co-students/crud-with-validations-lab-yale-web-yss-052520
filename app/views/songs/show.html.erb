@@ -1,0 +1,19 @@
+<h1><%=@song.title%></h1> 
+
+<p> 
+Artist: <%=@song.artist_name%>
+<br/>
+Genre: <%=@song.genre%>
+<br/>
+Release: 
+    <%if @song.released == true%> Officially released in <%=@song.release_year%>! 
+    <%else%> Not officially released! 
+    <%end%> 
+<br/> 
+<br/>
+<%=link_to "Delete Song", method: 'DELETE', action: 'destroy' %>
+<br/>
+<%=link_to "All Songs", songs_path%>
+<br/>
+<%=link_to "Edit Song", edit_song_path%>
+</p>

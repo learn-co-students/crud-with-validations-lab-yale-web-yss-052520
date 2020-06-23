@@ -1,0 +1,6 @@
+Song.create(title: "moomoo", artist_name: "yum1", released: true, release_year: 2005, genre: "electro") 
+Song.create(title: "woo", artist_name: "sam", released: false, release_year: nil, genre: "dance") 
+Song.create(title: "tree", artist_name: "achilles", released: true, release_year: 2001, genre: "big") 
+Song.create(title: "lick", artist_name: "idiot", released: true, release_year: 2000, genre: "orange") 
+Song.create(title: "hangar", artist_name: "yam-man", released: true, release_year: 2019, genre: "hoohaa") 
+Song.create(title: "jello", artist_name: "carrot", released: true, release_year: 2020, genre: "brouhaha") 
