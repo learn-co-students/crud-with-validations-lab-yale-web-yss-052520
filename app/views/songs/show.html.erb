@@ -1,0 +1,8 @@
+<h1>Title: <%= @song.title %></h1>
+<h4>Released: <%="unreleased" if @song.released %></h4>
+<h4>Release Year: <%="Release Year: #{@song.release_year}" if @song.released %></h4>
+<h4>Artist: <%= @song.artist_name %></h4>
+<h4>Genre: <%= @song.genre %></h4>
+<%= form_for @song, method: :delete do |f| %>
+	<%= f.submit "Delete Song" %>
+<% end %>
