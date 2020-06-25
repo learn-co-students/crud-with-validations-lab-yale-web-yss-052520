@@ -1,0 +1,1 @@
+Song.create(title: "T1", released: true, release_year: 2020, artist_name: "Me", genre: "rap") 
