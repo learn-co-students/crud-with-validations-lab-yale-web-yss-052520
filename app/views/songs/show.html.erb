@@ -1,0 +1,9 @@
+<h1>Here's that song you asked for:</h1>
+
+<p><%= link_to(@song.title, edit_song_path(@song)) %><p>
+<p><%= @song.released %><p>
+<p><%= @song.release_year%><p>
+<p><%= @song.artist_name %><p>
+<p><%= @song.genre %><p>
+
+<%= link_to("delete", {controller: 'songs', method: :delete} )%>
