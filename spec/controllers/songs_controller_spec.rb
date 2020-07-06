@@ -47,6 +47,7 @@ RSpec.describe SongsController, type: :controller do
     end
 
     it "assigns and persists new song" do
+      
       expect(assigns(:song)).to be_a(Song)
       expect(assigns(:song)).to be_persisted
     end
