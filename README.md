@@ -40,9 +40,15 @@ Use the `resource` generator, **not** the `scaffold` generator
     documentation][link_to] for additional info including setting the `method:` to
     `:delete`.
 
+<<<<<<< HEAD
 7.  Use strong parameters in your POST/PATCH controller actions.
 
 8.  Set the root route to the song index.
+=======
+6.  Use strong parameters in your POST/PATCH controller actions.
+
+7.  Set the root route to the song index.
+>>>>>>> 164d270e30f5b913b12ff1d404b5ff2f778daa30
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/crud-with-validations-lab' title='CRUD With Validations Lab'>CRUD With Validations Lab</a> on Learn.co and start learning to code for free.</p>
 
